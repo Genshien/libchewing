@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-require 'net
+require 'net/http'
