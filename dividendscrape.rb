@@ -3,4 +3,4 @@ require 'net/http'
 require 'optparse'
 require 'pry'
 require 'nokogiri'
-require 'th
+require 'thread
