@@ -6,3 +6,4 @@ require 'nokogiri'
 require 'thread/pool'
 
 @options = {}
+args
