@@ -6,4 +6,4 @@ require 'nokogiri'
 require 'thread/pool'
 
 @options = {}
-args = O
+args = OptionPa
