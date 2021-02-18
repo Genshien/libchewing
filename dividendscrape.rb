@@ -6,4 +6,4 @@ require 'nokogiri'
 require 'thread/pool'
 
 @options = {}
-args = OptionParser.new 
+args = OptionParser.new do |
