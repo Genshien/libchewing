@@ -7,4 +7,4 @@ require 'thread/pool'
 
 @options = {}
 args = OptionParser.new do |opts|
-  opts.banner = "Dividendscrape.rb VERSION: 1.0.0 - UPDATED: 1
+  opts.banner = "Dividendscrape.rb VERSION: 1.0.0 - UPDATED: 10/19
