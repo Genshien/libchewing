@@ -10,4 +10,4 @@ args = OptionParser.new do |opts|
   opts.banner = "Dividendscrape.rb VERSION: 1.0.0 - UPDATED: 10/19/2015\r\n\r\n"
   opts.banner += "Usage: dividendscrape [options]\r\n\r\n"
   opts.banner += "\texample: ./dividendscrape -s \"PG\"\r\n\r\n"
-  opts.on("-s", "--stock [Stock Sy
+  opts.on("-s", "--stock [Stock Symbol]", "
