@@ -11,4 +11,4 @@ args = OptionParser.new do |opts|
   opts.banner += "Usage: dividendscrape [options]\r\n\r\n"
   opts.banner += "\texample: ./dividendscrape -s \"PG\"\r\n\r\n"
   opts.on("-s", "--stock [Stock Symbol]", "The ticker symbold for a single stock") { |stock| @options[:stock] = stock }
-  opts.on("-S", "--stock-list [Stoc
+  opts.on("-S", "--stock-list [Stock Fi
