@@ -13,3 +13,4 @@ args = OptionParser.new do |opts|
   opts.on("-s", "--stock [Stock Symbol]", "The ticker symbold for a single stock") { |stock| @options[:stock] = stock }
   opts.on("-S", "--stock-list [Stock File]", "File containing a list of stock symbols") { |stocks| @options[:stocks] = File.open(stocks, "r").read }
   opts.on("-v", "--verbose", "Enables verbose output\r\n\r\n") { |v| @options[:verbose] = true }
+end
