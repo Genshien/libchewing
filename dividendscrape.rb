@@ -16,4 +16,4 @@ args = OptionParser.new do |opts|
 end
 args.parse!(ARGV)
 
-d
+def get_
