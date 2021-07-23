@@ -16,4 +16,4 @@ args = OptionParser.new do |opts|
 end
 args.parse!(ARGV)
 
-def get_dividen
+def get_dividend_in
