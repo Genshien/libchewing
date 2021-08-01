@@ -17,3 +17,4 @@ end
 args.parse!(ARGV)
 
 def get_dividend_info(symbol)
+	beg
