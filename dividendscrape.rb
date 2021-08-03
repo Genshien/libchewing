@@ -18,4 +18,4 @@ args.parse!(ARGV)
 
 def get_dividend_info(symbol)
 	begin
-		stock_
+		stock_uri = 
