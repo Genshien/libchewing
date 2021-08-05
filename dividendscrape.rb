@@ -18,4 +18,4 @@ args.parse!(ARGV)
 
 def get_dividend_info(symbol)
 	begin
-		stock_uri = URI.parse(get_
+		stock_uri = URI.parse(get_url(symb
