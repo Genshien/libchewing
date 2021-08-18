@@ -19,4 +19,4 @@ args.parse!(ARGV)
 def get_dividend_info(symbol)
 	begin
 		stock_uri = URI.parse(get_url(symbol))
-		stock_response_page = Net::HTTP.get_respon
+		stock_response_page = Net::HTTP.get_response(s
