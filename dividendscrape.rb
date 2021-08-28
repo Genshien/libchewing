@@ -21,4 +21,4 @@ def get_dividend_info(symbol)
 		stock_uri = URI.parse(get_url(symbol))
 		stock_response_page = Net::HTTP.get_response(stock_uri)
 		parseable = Nokogiri::HTML(stock_response_page.body)
-	
+		if result
