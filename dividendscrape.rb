@@ -23,4 +23,4 @@ def get_dividend_info(symbol)
 		parseable = Nokogiri::HTML(stock_response_page.body)
 		if results = parse_results(parseable, symbol)
 			output = ""
-			results.each { |k, v| output
+			results.each { |k, v| output << v.ch
