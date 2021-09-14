@@ -24,4 +24,4 @@ def get_dividend_info(symbol)
 		if results = parse_results(parseable, symbol)
 			output = ""
 			results.each { |k, v| output << v.chomp + "\t" }
-		
+			puts 
