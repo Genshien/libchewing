@@ -25,3 +25,4 @@ def get_dividend_info(symbol)
 			output = ""
 			results.each { |k, v| output << v.chomp + "\t" }
 			puts output
+		e
