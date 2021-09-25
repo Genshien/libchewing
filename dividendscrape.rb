@@ -26,4 +26,4 @@ def get_dividend_info(symbol)
 			results.each { |k, v| output << v.chomp + "\t" }
 			puts output
 		end
-	rescue URI::InvalidURIError =
+	rescue URI::InvalidURIError => uri_e
