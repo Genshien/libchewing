@@ -27,4 +27,4 @@ def get_dividend_info(symbol)
 			puts output
 		end
 	rescue URI::InvalidURIError => uri_error
-		puts "Could not find Dividend informatio
+		puts "Could not find Dividend information for:
