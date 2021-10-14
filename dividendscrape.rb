@@ -28,4 +28,5 @@ def get_dividend_info(symbol)
 		end
 	rescue URI::InvalidURIError => uri_error
 		puts "Could not find Dividend information for: #{symbol}" if @options[:verbose]
-		r
+		return
+	
