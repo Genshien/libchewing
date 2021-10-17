@@ -30,4 +30,6 @@ def get_dividend_info(symbol)
 		puts "Could not find Dividend information for: #{symbol}" if @options[:verbose]
 		return
 	end
-en
+end
+
+def
