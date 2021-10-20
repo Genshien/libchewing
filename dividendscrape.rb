@@ -32,4 +32,4 @@ def get_dividend_info(symbol)
 	end
 end
 
-def get_url(
+def get_url(symbol)
