@@ -33,4 +33,4 @@ def get_dividend_info(symbol)
 end
 
 def get_url(symbol)
-	search_uri = 
+	search_uri = URI.
