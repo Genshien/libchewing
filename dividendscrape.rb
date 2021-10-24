@@ -33,4 +33,4 @@ def get_dividend_info(symbol)
 end
 
 def get_url(symbol)
-	search_uri = URI.parse("ht
+	search_uri = URI.parse("http://www.
