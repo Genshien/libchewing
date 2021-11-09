@@ -34,4 +34,4 @@ end
 
 def get_url(symbol)
 	search_uri = URI.parse("http://www.dividend.com/search/?q=" + symbol.chomp)
-	response = Net::HTTP.get_response
+	response = Net::HTTP.get_response(sear
