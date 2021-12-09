@@ -38,4 +38,4 @@ def get_url(symbol)
 	return response.code == "302" ? response['location'] : nil
 end
 
-def parse_results(page
+def parse_results(page, symb
