@@ -39,4 +39,4 @@ def get_url(symbol)
 end
 
 def parse_results(page, symbol)
-	sto
+	stock = 
