@@ -40,4 +40,4 @@ end
 
 def parse_results(page, symbol)
 	stock = {}
-	stock[:ticker] = page.css
+	stock[:ticker] = page.css('.data
