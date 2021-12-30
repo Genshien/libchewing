@@ -41,4 +41,4 @@ end
 def parse_results(page, symbol)
 	stock = {}
 	stock[:ticker] = page.css('.data-title__symbol').text
-	return n
+	return nil if sto
