@@ -43,4 +43,4 @@ def parse_results(page, symbol)
 	stock[:ticker] = page.css('.data-title__symbol').text
 	return nil if stock[:ticker] == ""
 	stock[:company] = page.css('.data-title__name').text
-	stock[:sector] = page.css('.breadc
+	stock[:sector] = page.css('.breadcru
