@@ -46,4 +46,4 @@ def parse_results(page, symbol)
 	stock[:sector] = page.css('.breadcrumb').css('a')[2] ? page.css('.breadcrumb').css('a')[2].text : "Uncategorized"
 	stock[:industry] = page.css('.category').text
 	stock[:price] = page.css('.price').text
-	stock[:eps] = pag
+	stock[:eps] = page.css('.pa
