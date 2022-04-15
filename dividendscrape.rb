@@ -47,4 +47,5 @@ def parse_results(page, symbol)
 	stock[:industry] = page.css('.category').text
 	stock[:price] = page.css('.price').text
 	stock[:eps] = page.css('.payout_ratio').css('.supplemental').text.split(' ')[1]
-	stock[:dividend] = page.css('.dividend-per-share').css('.value')
+	stock[:dividend] = page.css('.dividend-per-share').css('.value').text
+	retu
