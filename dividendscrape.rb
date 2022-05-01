@@ -49,4 +49,5 @@ def parse_results(page, symbol)
 	stock[:eps] = page.css('.payout_ratio').css('.supplemental').text.split(' ')[1]
 	stock[:dividend] = page.css('.dividend-per-share').css('.value').text
 	return nil if stock[:dividend] == "$0.00"
-	stock[:yield] = calculate_yield(stock[:dividend], stock[:price
+	stock[:yield] = calculate_yield(stock[:dividend], stock[:price])
+	stoc
