@@ -51,4 +51,5 @@ def parse_results(page, symbol)
 	return nil if stock[:dividend] == "$0.00"
 	stock[:yield] = calculate_yield(stock[:dividend], stock[:price])
 	stock[:payout_ratio] = page.css('.payout_ratio').css('.value').text
-	stock[:dividend_years] = page.css('.increasing-dividend-period').css('.value').text.split(' '
+	stock[:dividend_years] = page.css('.increasing-dividend-period').css('.value').text.split(' ')[0]
+	pa
