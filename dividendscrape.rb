@@ -52,4 +52,4 @@ def parse_results(page, symbol)
 	stock[:yield] = calculate_yield(stock[:dividend], stock[:price])
 	stock[:payout_ratio] = page.css('.payout_ratio').css('.value').text
 	stock[:dividend_years] = page.css('.increasing-dividend-period').css('.value').text.split(' ')[0]
-	payout_table = page.xpath('//table[@class="base-table not-clickabl
+	payout_table = page.xpath('//table[@class="base-table not-clickable payou
