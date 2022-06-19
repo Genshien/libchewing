@@ -53,4 +53,4 @@ def parse_results(page, symbol)
 	stock[:payout_ratio] = page.css('.payout_ratio').css('.value').text
 	stock[:dividend_years] = page.css('.increasing-dividend-period').css('.value').text.split(' ')[0]
 	payout_table = page.xpath('//table[@class="base-table not-clickable payout-data"]//tr').collect
-	stock[:three_year_growth] = calculate_dividend_growth_rate(payout_
+	stock[:three_year_growth] = calculate_dividend_growth_rate(payout_table, 
