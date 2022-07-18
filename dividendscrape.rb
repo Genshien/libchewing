@@ -56,4 +56,5 @@ def parse_results(page, symbol)
 	stock[:three_year_growth] = calculate_dividend_growth_rate(payout_table, 3, symbol)
 	stock[:five_year_growth] = calculate_dividend_growth_rate(payout_table, 5, symbol)
 	stock[:ten_year_growth] = calculate_dividend_growth_rate(payout_table, 10, symbol)
-	return stoc
+	return stock
+en
