@@ -59,4 +59,4 @@ def parse_results(page, symbol)
 	return stock
 end
 
-def c
+def calculate
