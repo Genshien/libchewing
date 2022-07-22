@@ -60,4 +60,4 @@ def parse_results(page, symbol)
 end
 
 def calculate_yield(dividend, price)
-	p
+	p1 = 
