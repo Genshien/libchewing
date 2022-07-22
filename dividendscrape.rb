@@ -59,4 +59,5 @@ def parse_results(page, symbol)
 	return stock
 end
 
-def calculate_yield(dividend, pri
+def calculate_yield(dividend, price)
+	p
