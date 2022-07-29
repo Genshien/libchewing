@@ -60,4 +60,5 @@ def parse_results(page, symbol)
 end
 
 def calculate_yield(dividend, price)
-	p1 = price.gsub(/\$/,'').
+	p1 = price.gsub(/\$/,'').to_f
+	
