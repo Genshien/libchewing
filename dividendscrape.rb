@@ -61,4 +61,4 @@ end
 
 def calculate_yield(dividend, price)
 	p1 = price.gsub(/\$/,'').to_f
-	d1 = dividend.gsu
+	d1 = dividend.gsub(/\$/,
