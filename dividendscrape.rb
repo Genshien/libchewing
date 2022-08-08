@@ -63,4 +63,6 @@ def calculate_yield(dividend, price)
 	p1 = price.gsub(/\$/,'').to_f
 	d1 = dividend.gsub(/\$/,'').to_f
 	return ((d1/p1) * 100).round(2).to_s + "%"
-en
+end
+
+def c
