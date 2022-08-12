@@ -65,4 +65,4 @@ def calculate_yield(dividend, price)
 	return ((d1/p1) * 100).round(2).to_s + "%"
 end
 
-def calculat
+def calculate_di
