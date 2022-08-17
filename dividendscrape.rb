@@ -67,4 +67,4 @@ end
 
 def calculate_dividend_growth_rate(table, periods, symbol)
 	payouts = Array.new
-	
+	beg
