@@ -66,3 +66,4 @@ def calculate_yield(dividend, price)
 end
 
 def calculate_dividend_growth_rate(table, periods, symbol)
+	payouts 
