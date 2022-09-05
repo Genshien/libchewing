@@ -69,4 +69,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 	payouts = Array.new
 	begin
 		table.each { |payout|  
-			payout = payout.xpath('td[1]').text.g
+			payout = payout.xpath('td[1]').text.gsub
