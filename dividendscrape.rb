@@ -72,4 +72,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 			payout = payout.xpath('td[1]').text.gsub(/\$/,'').to_f.round(2)
 			payouts << payout unless (payout == 0.0 || payout > 1.99)
 		}
-		period = payouts.uniq[0
+		period = payouts.uniq[0..(p
