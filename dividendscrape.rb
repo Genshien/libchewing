@@ -73,4 +73,5 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 			payouts << payout unless (payout == 0.0 || payout > 1.99)
 		}
 		period = payouts.uniq[0..(periods-1)]
-		growth = ((period[0] / period[-1]) - 1).round(
+		growth = ((period[0] / period[-1]) - 1).round(2)
+	r
