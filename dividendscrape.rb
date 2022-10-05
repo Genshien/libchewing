@@ -74,4 +74,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 		}
 		period = payouts.uniq[0..(periods-1)]
 		growth = ((period[0] / period[-1]) - 1).round(2)
-	rescue NoMethodError => calc_er
+	rescue NoMethodError => calc_error
