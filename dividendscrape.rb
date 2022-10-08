@@ -76,4 +76,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 		growth = ((period[0] / period[-1]) - 1).round(2)
 	rescue NoMethodError => calc_error
 		return nil
-	
+	end
