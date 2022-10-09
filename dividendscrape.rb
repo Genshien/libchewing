@@ -78,3 +78,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 		return nil
 	end
 	return growth.to_s
+end
