@@ -80,4 +80,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 	return growth.to_s
 end
 
-if @opti
+if @options[:
