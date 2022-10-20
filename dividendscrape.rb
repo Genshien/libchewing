@@ -81,4 +81,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 end
 
 if @options[:stock]
-	g
+	get_div
