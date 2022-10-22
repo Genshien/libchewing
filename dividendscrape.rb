@@ -81,4 +81,4 @@ def calculate_dividend_growth_rate(table, periods, symbol)
 end
 
 if @options[:stock]
-	get_dividend_info(@opt
+	get_dividend_info(@options[
