@@ -83,4 +83,4 @@ end
 if @options[:stock]
 	get_dividend_info(@options[:stock])
 	exit!
-elsif @o
+elsif @options
