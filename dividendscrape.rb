@@ -84,4 +84,4 @@ if @options[:stock]
 	get_dividend_info(@options[:stock])
 	exit!
 elsif @options[:stocks]
-	@options[:stocks].ea
+	@options[:stocks].each_li
