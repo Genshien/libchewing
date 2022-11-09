@@ -84,4 +84,5 @@ if @options[:stock]
 	get_dividend_info(@options[:stock])
 	exit!
 elsif @options[:stocks]
-	@options[:stocks].each_line { |stock| get_dividend_info(stock) 
+	@options[:stocks].each_line { |stock| get_dividend_info(stock) }
+	
